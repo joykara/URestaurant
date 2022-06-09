@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation | URestaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header class="menu-bar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a> </li>
+        <li ><a href="gallery.html">Gallery</a></li>
+        <li class="active"><a href="booking.html">Reservation</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+     </header>
+<div class="book">
+    <h1> Reservations </h1>
+    <h2>Having an Event? Book a Reservation With Us</h2>
+    <p>
+        We offer spacious boardroams with excellent decor for any event.<br> URestaurant is located in a quiet serene environment<br> therefore providing good ambience for any kind of occasion.<br> We also have ample and secure parking.
+    </p> 
+    <p>
+        We look forward to hosting you in the future.
+    </p>
+</div>
+<div class="img2">
+<div class="form">
+    <form action="https://formspree.io/f/moqrlgbv" method="post" id="my-form">
+        <h1>Reservation</h1>
+        <p>
+        <label for="name"> First Name:</label>  
+        <input type="text" name=" First name" placeholder="Your First Name" required><br>
+        <label for="name"> Last Name:</label>
+        <input type="text" name="Your Last name" placeholder="Last Name" required><br>
+        <label for="email"> Email Address:</label>
+        <input type="email" name="Your Email address"><br>
+        <label for="number"> Phone number:</label>
+        <input type="tel" name=" Phone number" placeholder="+254" required><br>
+    
+        <label for="date"> Date:</label>
+        <input type="date" name=" Date" required><br>
+    
+        <label for="number"> Number of People:</label>
+        <select name="number" size="0">
+            <option selected value="Choose">Choose..</option>
+            <option value="1 Person">1 Person</option>
+            <option value="2 People">2 People</option>
+            <option value="3 People">3 People</option>
+            <option value="4 People">4 People</option>
+            <option value="5 People">5 People</option>
+            <option value="6 People">6 People</option>
+            <option value="7 People">7 People</option>
+            <option value="8 People">8 People</option>
+            <option value="9 People">9 People</option>
+            <option value="10 People">10 People</option>
+            <option value=" More than 10 People">More than 10 People</option>
+        </select>
+    </p>
+
+    <fieldset>
+        <legend> <label for="text"> Further Reservation Details:</label></legend>
+       <br>
+        <textarea name="Comments" rows=6 cols=100 wrap>
+            Reservation Details...
+        </textarea>
+    </fieldset>
+
+    <button type="submit">Submit</button>
+
+        </form>
+    </div>
+    <div id="status" class="success">Success</div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <img src="img/85440240_padded_logo.png" alt="URestaurant" height="100px" width="100px">
+                <h3>ABOUT URestaurant</h3>
+                <p>An African cuisine restaurant giving you a perfect getaway for authentic dishes and an amazing ambience.</p>
+            </div>
+            <div class="footer-col">
+                <h3>GET HELP:</h3>
+                
+                <p>Find Us On</p>
+                <p>120-43 Edo- Gintama</p>
+                <p>Nairobi- Kenya</p>
+                <p>Reservations:</p>
+                <p>+254(0) 713 013 808 / +254(0) 708 831 013</p>
+                <p>contact@urestaurant.co.ke</p>
+            
+                <div class="links">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+            </div>
+            </div>
+            <div class="footer-col">
+                <h3>OPEN HOURS</h3>
+                <table>
+                <tr>
+                    <td>Monday - Thursday</td>
+                    <td>6:30AM - 10:00PM</td>
+                </tr>
+                <tr>
+                    <td>Friday - Saturday</td>
+                    <td>6:30AM - 12:00AM</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>7:30AM - 10:00PM</td>
+                </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="copyright"> URestaurant &copy; 2022</div>
+    
+</footer>
+    <script src="./script.js"></script>
+</body>
+</html>

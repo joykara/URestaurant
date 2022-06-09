@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Playfair+Display:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.img{
+    background-image: url("img/breakfast-g3090da4ce_1920.JPG");
+    background-size: cover ;
+    background-position: center;
+    height: 89vh;
+    font-family: sans-serif;
+}
+
+.menu-bar{
+    background-color: rgba(36, 32, 25, 0.877) ;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+
+}
+.menu-bar ul li{
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+}
+.menu-bar ul li a{
+    text-decoration: solid;
+    color: antiquewhite;
+}
+.active, .menu-bar ul li:hover{
+    background-color:rgb(51, 48, 36) ;
+    border-radius: 2px;
+} 
+.banner-text{
+    text-align: center;
+    color: rgba(15, 15, 12, 0.986) ;
+    padding-top: 410px;
+}
+.banner-text h1{
+    font-size: 130px;
+    font-family: 'Playfair';
+}
+.banner-text p{
+    font-size: 25px;
+    color: rgb(77, 49, 7);
+    font-style: bold;
+    font-family: 'Playfair Display';
+}
+
+.book{
+    background-color: rgba(236, 208, 165, 0.979);
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    padding: 100px;
+    margin: 0px;
+    word-spacing: 2px;
+}
+.book h1{
+    font-family: 'Playfair Display';
+}
+.book p{
+    font-family: 'Raleway';
+}
+.img2{
+    background-image: url("img/breakfast-g3090da4ce_1920.JPG");
+    padding: 65px;
+    margin-bottom: 10px;
+}
+section{
+    
+}
+.form{
+    background-color: rgb(253, 252, 250);
+    max-width: 550px;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 70px;
+    margin: 5vh auto 0 auto;
+    word-spacing: 2px;
+    text-align: initial;
+    
+}
+.form h1{
+    text-align: center;
+}
+label{
+    display: block;
+    margin: 20px 0;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+.form button{
+    padding: 10px;
+    margin: 10px 0;
+    background: rgb(207, 144, 50);
+    border-radius: 10px;
+    cursor: pointer;
+}
+#status{
+    width: 50%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+#status.success{
+    background-color: rgba(120, 201, 74, 0.89);
+    animation: status 4s ease forwards;
+}
+#status.error{
+    background-color: rgba(206, 107, 67, 0.89);
+    animation: status 4s ease forwards;
+}
+/* Add animation */
+@keyframes status{
+    0%{opacity: 1;
+        pointer-events: all;}
+    90%{opacity: 1;
+        pointer-events: all;}
+    100%{opacity: 0;
+            pointer-events: all;}
+}
+*, footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cotainer{
+    max-width: 1170px;
+    margin: 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color: #24262b ;
+    padding: 50px 50px;
+    margin-top: 0px;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col, h3{
+    color: #fff;
+    font-size: 15px;
+    color: rgb(146, 143, 143);
+    margin-bottom: 30px;
+}
+.links{
+    display: inline;
+    height: 40px;
+    width: 70px;
+    margin: 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.034);
+    line-height: 40px;
+}
+table, tr, td, th, caption{
+    border: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+.title h1{
+    background-color: rgba(185, 152, 104, 0.699);
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    padding: 10px;
+}
+.img3{
+    background-image: url("img/coffee-g6219e06e0_1920.JPG");
+    padding: 65px;
+    margin: 0;
+}
+.img4{
+    background-image: url("img/maccaroni.JPGbreakfast-g3090da4ce_1920.JPG");
+    padding: 65px;
+    margin-bottom: 0px;
+}
+.img5{
+    background-image: url("img/ice-cream-g06f1bb956_1920.JPG");
+    padding: 65px;
+    /* margin-top: -5px;
+    margin-bottom: 10px; */
+}
+.foodMenu, h2, h4{
+    font-family: 'Playfair Display';
+}
+.foodMenu-content{
+    background-color: rgb(253, 252, 250);
+    max-width: 750px;
+    width: 98%;
+    box-sizing: border-box;
+    padding: 70px;
+    margin: 0 auto;
+    word-spacing: 2px;
+    text-align: initial;
+}
+.copyright{
+    color: #fff;
+}
+.gallery{
+    margin: 10px 10px;
+    text-align: center;
+    background-color: rgba(202, 140, 15, 0);
+}
+.gallery img{
+    width: 450px;
+    padding: 5px;
+    cursor: pointer;
+}
+.gallery img:hover{
+    transform: scale(0.9) rotate(-5deg);
+    border-radius: 20px;
+}
