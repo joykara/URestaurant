@@ -5,7 +5,6 @@ This was a challenge to help in improving my coding skills.
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -15,15 +14,10 @@ This was a challenge to help in improving my coding skills.
 
 ## Overview
 
-### Screenshot
-
-![](./images/FrontendMentor_QRcode_solution.jpg)
-
-
 ### Links
 
-- Solution URL: [https://github.com/joykara/qrcode_challenge.git]
-- Live URL: [https://joykara.github.io/qrcode_challenge/]
+- Solution URL: [https://github.com/joykara/URestaurant.git]
+- Live URL: [ https://joykara.github.io/URestaurant/]
 
 ## My process
 
