@@ -25,3 +25,7 @@ This was a challenge to help in improving my coding skills.
 
 - Semantic HTML5 markup
 - CSS custom properties
+
+## Author
+
+- Website - [Joy Mwende Karani](https://github.com/joykara/URestaurant.git)
